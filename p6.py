@@ -1,13 +1,9 @@
-
-
-
 list=[]
-total = sum(range(1,101))
+total = sum(range(1, 101))
 total=total*total
-for i in range(1,101):
+for i in range(1,  101):
     i=i*i
     list.append(i)
 sq = sum(list)
-# print sq
 print total-sq
 
